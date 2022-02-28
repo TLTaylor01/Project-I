@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-!(Diagrams/Project 12 and P1.drawio)
+![Lab Layout Diagram for EKL Stack:](Diagrams/Project 12 and P1.drawio)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -95,7 +95,7 @@ Update the host file to include all webservers that you are Answer the following
 Which file is the playbook? Where do you copy it?
 
 The playbook to set up elk is elk.yml and you copy this file into the /etc/ansible/directory.
-Which URL do you navigate to in order to check that the ELK server is running?
+__Which URL do you navigate to in order to check that the ELK server is running?__
 In order to check if your elk server is up and running, you need to connect to the public IP address of the elk machine in a browser with the open port. Thus, your url should read something similar to this http://13.77.219.27:5601/app/kibana#/home.
 requesting as well as uncommenting [webservers] and adding underneath your webservers ip addresses you will be adding a [elk] and the elks IP address. Next to all IP addresses you need to include ansible_python_interpreter=/usr/bin/python3.
 Run the playbook, and navigate to Kibana<also the public ip address of the elk server:port address that you opened((5601))> to check that the installation worked as expected.
@@ -114,8 +114,8 @@ _
  _Which file do you update to make Ansible run the playbook on a specific machine?
 
  How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+
+- _Which URL do you navigate to in order to check that the ELK server is running?_
 You would verify that the ELK server is running,requires connecting to the Public IP address of the elk machine in a browser with the open Port info. The required URL for reference is 13.77.291.27:5601/app/kibana#home.
 
 
