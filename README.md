@@ -1,3 +1,7 @@
+
+### CyberSecurity Project 1 ###
+#Microsoft ELK Stack Design and Linux Server Deployment #
+
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
@@ -6,7 +10,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-![Ansible Playbook: ](Ansible/file-playbook.yml)
+[Ansible Playbook Located Here](Ansible/file-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
@@ -119,8 +123,8 @@ _
 You would verify that the ELK server is running,requires connecting to the Public IP address of the elk machine in a browser with the open Port info. The required URL for reference is 13.77.291.27:5601/app/kibana#home.
 
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
-Step by Step from Downloading Docker to Setting up a Playbook
+##Step by Step from Downloading Docker to Setting up a Playbook##
+
 In order to run this set of dockers you will want to run the commands as follows. Note: This can only work if you already have set up a Azure VMs.
 udo apt install docker.io
 systemctl status docker (run this command to ensure that your docker.io was installed and running)
