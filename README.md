@@ -1,5 +1,6 @@
 
 
+
 ### CyberSecurity Project 1 ###
 #Microsoft ELK Stack Design and Linux Server Deployment #
 
@@ -40,8 +41,8 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 | Name       | Function | IP Address | Operating System |
 |------------|----------|------------|------------------|
 | Jump Box   | Gateway  | 10.0.0.4   |    Linux         |
-| Web VM SR I| DVWA     | 10.0.0.5   |    Linux         |
-| Web VM SR I| DVWA     | 10.0.0.6   |    Linux         |
+| Web VM SR 1| DVWA     | 10.0.0.5   |    Linux         |
+| Web VM SR 2| DVWA     | 10.0.0.6   |    Linux         |
 | ELK VM     | Ingest   | 10.0.0.7   |    Linux         |
 
 ### Access Policies
