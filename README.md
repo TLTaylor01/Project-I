@@ -2,11 +2,11 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Lab Layout Diagram for EKL Stack:](Diagrams/Project 12 and P1.drawio)
+![Lab Layout Diagram for EKL Stack:](Diagrams/Project_12_and_P1.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-![Ansible] (file-playbook.yml)
+![Ansible Playbook: ](Ansible/file-playbook.yml)
 
 This document contains the following details:
 - Description of the Topology
